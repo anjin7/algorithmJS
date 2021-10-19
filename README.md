@@ -1,2 +1,2 @@
-# algorithmJS
-algorithm JS
+# AlgorithmJS
+Algorithm JS
