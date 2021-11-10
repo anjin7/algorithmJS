@@ -1,5 +1,3 @@
-//1부터 N까지 합
-
 function solution(n){
   let answer=0;
   for(let i=1; i<=n; i++){

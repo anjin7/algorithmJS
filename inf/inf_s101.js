@@ -1,5 +1,3 @@
-//최소값 찾기
-
 function solution(a, b, c){
   let result;
   if(a<b) result=a;

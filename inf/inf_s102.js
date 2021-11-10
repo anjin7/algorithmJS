@@ -1,5 +1,3 @@
-//삼각형 판별하기
-
 function solution(a, b, c){
   let answer="YES";
   let max = 0;

@@ -1,5 +1,3 @@
-//홀수의 합
-
 function solution(arr){
   let answer=[];
   let sum=0, min=Number.MAX_SAFE_INTEGER;

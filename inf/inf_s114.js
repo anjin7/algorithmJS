@@ -1,5 +1,3 @@
-//가장 긴 문자 찾기
-
 function solution(s){  
   let answer="", max=Number.MIN_SAFE_INTEGER;
   for(let x of s){

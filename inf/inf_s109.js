@@ -1,5 +1,3 @@
-//특정 알파벳 변환
-
 function solution(s){
   let answer="";
   for(let x of s){

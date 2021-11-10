@@ -1,5 +1,3 @@
-//중복된 단어 제거
-
 function solution(s){  
   let answer;
   //console.log(s.indexOf("time"));

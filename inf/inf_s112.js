@@ -1,5 +1,3 @@
-//대문자로 변환
-
 function solution(s){         
   let answer="";
   for(let x of s){

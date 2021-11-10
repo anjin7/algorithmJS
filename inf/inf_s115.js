@@ -1,5 +1,3 @@
-//가운데 문자 출력
-
 function solution(s){  
   let answer;
   let mid=Math.floor(s.length/2);

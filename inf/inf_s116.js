@@ -1,5 +1,3 @@
-//중복되는 문자 제거
-
 function solution(s){  
   let answer="";
   for(let i=0; i<s.length; i++){
