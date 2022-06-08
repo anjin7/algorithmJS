@@ -1,6 +1,6 @@
 function solution(s){
   let answer = s;
-  s = s.replace(/A/g, '#');
+  answer = answer.replace(/A/g, '#');
   
   return answer;
 }
