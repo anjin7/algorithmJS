@@ -1,7 +1,8 @@
 function solution(test){
   let answer=0;
-  m=test.length;
-  n=test[0].length;
+  m = test.length;
+  n = test[0].length;
+  
   for(let i=1; i<=n; i++){
     for(let j=1; j<=n; j++){
       let cnt=0;
