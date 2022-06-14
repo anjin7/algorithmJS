@@ -2,11 +2,11 @@
 let input = [1, 10, 13, 100, 1000, 10000, 100000, 0];
 
 function isPrime(num) {
-      if(num===1) return false;
-      for(let i=2; i<=parseInt(Math.sqrt(num)); i++){
-          if(num%i===0) return false;
-      }
-      return true;
+        if(num===1) return false;
+        for(let i=2; i<=parseInt(Math.sqrt(num)); i++){
+            if(num%i===0) return false;
+        }
+        return true;
     };
 
 for(let i=0; i<input.length; i++){
