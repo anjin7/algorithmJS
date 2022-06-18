@@ -10,9 +10,5 @@ arrA.forEach((a) => {
     answer.delete(a)
   }
 })
-arrB.forEach((b) => {
-  if(arrA.has(b)){
-    answer.delete(b)
-  }
-})
+
 console.log(answer.size)
