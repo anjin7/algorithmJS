@@ -3,7 +3,7 @@
 // "1234"라면 True를 리턴하면 됩니다.
 
 function solution(s) {
-    var answer = true;
+    let answer = true;
     if(s.length===4 || s.length===6){
         if(isNaN(s)){
             answer = false
