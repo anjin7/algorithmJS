@@ -17,9 +17,12 @@ for(let i=0; i<input.length; i++){
     }
 }
 
-let leng = arr.length;
-if(leng%2===0){
-  console.log(leng/2)
-}else{
-  console.log((leng-1)/2)
-}
+// let leng = arr.length;
+// if(leng%2===0){
+//   console.log(leng/2)
+// }else{
+//   console.log((leng-1)/2)
+// }
+
+let leng = Math.floor(arr.length / 2)
+console.log(leng)
