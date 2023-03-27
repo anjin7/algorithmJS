@@ -15,4 +15,4 @@ for(let i=1; i<(2*N); i++){
     }    
     answer.push(star)
 }
-console.log(answer.join('\n'))
+console.log(answer.join('\n'));
