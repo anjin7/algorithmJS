@@ -1,6 +1,11 @@
 // let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
-console.log()
-let [N, K] = input[0].split(' ').map(n=>parseInt(n));
+let input = [`4 2`,
+`1 3 0 0`,
+`3 0 0 2`,
+`4 0 2 0`,
+`2 0 2 0`]
+
+let [N, K] = input[0].split(' ').map(n => parseInt(n));
 let arr = [];
 let rankArr = [];
 for(let i=1; i<=N; i++){
