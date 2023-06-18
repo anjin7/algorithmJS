@@ -21,10 +21,10 @@ console.log(name[0])
 // 시간초과
 
 
-let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
-let N = parseInt(input[0]);
-let name = input.slice(1,N+1);
-let winner = input.slice(N+1);
+// let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
+// let N = parseInt(input[0]);
+// let name = input.slice(1,N+1);
+// let winner = input.slice(N+1);
 let list = new Set(name);
 for(let i=0; i<(N-1); i++){
     if(list.has(winner[i])){
