@@ -9,6 +9,10 @@ rl.on('line', function (line) {
     input.push(line)
   })
   .on('close', function () {
-    console.log(input)
+
+    //    console.log(input)
+
+    // solution
+
     process.exit();
   });
