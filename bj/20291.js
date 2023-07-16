@@ -36,3 +36,4 @@ console.log(answer.join('\n'))
 
 
 // 시간초과
+// VSC에서는 출력됨
