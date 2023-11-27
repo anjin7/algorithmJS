@@ -10,4 +10,4 @@ while(true){
     answer ++;
     arr.sort((a,b)=>b-a);
   }
-console.log(answer)
+console.log(answer);
